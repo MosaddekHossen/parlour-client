@@ -9,7 +9,9 @@ const Banner = () => {
               FOR EVERY WOMEN
             </h1>
           </div>
-          <div className="">Right</div>
+          <div className="">
+            <img src="../../../assets/banner-image.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
