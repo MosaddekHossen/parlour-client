@@ -9,38 +9,32 @@ const Navbar = () => {
       <ul className="menu menu-horizontal px-1 lg:flex gap-1 space-x-2 hidden">
         <NavLink
           to={"/"}
-          className={({ isPending, isActive }) =>
-            isPending
-              ? "bg-[#92a1eb] hover:bg-[#92a1eb] text-white px-6 py-3 rounded-full text-[16px] font-bold"
-              : isActive
-              ? "px-5 py-3 bg-[#F63E7B] text-[#fff] rounded-full text-[16px] font-bold border-none"
-              : "px-5 py-3 rounded-full hover:bg-[#616d7b81] border-none hover:bg-[#2d3434] text-white text-[16px] font-bold"
+          className={({ isActive }) =>
+            isActive
+              ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
           }
         >
           Home
         </NavLink>
 
         <NavLink
-          to={"/aboutMe"}
-          className={({ isPending, isActive }) =>
-            isPending
-              ? "bg-[#92a1eb] hover:bg-[#92a1eb] text-white px-5 py-3 rounded-full text-[16px] font-bold"
-              : isActive
-              ? "px-5 py-3 bg-[#F63E7B] text-[#fff] rounded-full text-[16px] font-bold border-none"
-              : "px-5 py-3 rounded-full hover:bg-[#616d7b81] border-none hover:bg-[#2d3434] text-white text-[16px] font-bold"
+          to={"/ourPortfolio"}
+          className={({ isActive }) =>
+            isActive
+              ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
           }
         >
-          About Me
+          Our Portfolio
         </NavLink>
 
         <NavLink
-          to={"/contact"}
-          className={({ isPending, isActive }) =>
-            isPending
-              ? "bg-[#92a1eb] hover:bg-[#92a1eb] text-white px-5 py-3 rounded-full text-[16px] font-bold"
-              : isActive
-              ? "px-5 py-3 bg-[#F63E7B] text-[#fff525] rounded-full text-[16px] font-bold border-none"
-              : "px-5 py-3 rounded-full hover:bg-[#617b73c1] border-none hover:bg-[#2d3434] text-white text-[16px] font-bold"
+          to={"/ourPortfolio"}
+          className={({ isActive }) =>
+            isActive
+              ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
           }
         >
           Contact
@@ -53,39 +47,33 @@ const Navbar = () => {
     <>
       <ul className="menu flex flex-col gap-2 menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 text-white">
         <NavLink
-          to={"/"}
-          className={({ isPending, isActive }) =>
-            isPending
-              ? "bg-[#92a1eb] hover:bg-[#92a1eb] text-white btn text-[14px] font-semibold"
-              : isActive
-              ? "btn bg-[#F63E7B] text-white text-[14px] font-semibold border-none"
-              : "btn bg-[#616d7b81] border-none hover:bg-[#2d3434] text-white text-[14px] font-semibold"
+          to={"/ourPortfolio"}
+          className={({ isActive }) =>
+            isActive
+              ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
           }
         >
           Home
         </NavLink>
 
         <NavLink
-          to={"/availableFoods"}
-          className={({ isPending, isActive }) =>
-            isPending
-              ? "bg-[#92a1eb] hover:bg-[#92a1eb] text-white btn text-[14px] font-semibold"
-              : isActive
-              ? "btn bg-[#F63E7B] text-white text-[14px] font-semibold border-none"
-              : "btn bg-[#616d7b81] border-none hover:bg-[#2d3434] text-white text-[14px] font-semibold"
+          to={"/ourPortfolio"}
+          className={({ isActive }) =>
+            isActive
+              ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
           }
         >
           Available Foods
         </NavLink>
 
         <NavLink
-          to={"/addFood"}
-          className={({ isPending, isActive }) =>
-            isPending
-              ? "bg-[#92a1eb] hover:bg-[#92a1eb] text-white btn text-[14px] font-semibold"
-              : isActive
-              ? "btn bg-[#F63E7B] text-white text-[14px] font-semibold border-none"
-              : "btn bg-[#616d7b81] border-none hover:bg-[#2d3434] text-white text-[14px] font-semibold"
+          to={"/ourPortfolio"}
+          className={({ isActive }) =>
+            isActive
+              ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
           }
         >
           Add Food

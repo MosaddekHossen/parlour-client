@@ -18,7 +18,7 @@ background: var(--PINK, #); */
               Get an Appointment
             </button>
           </div>
-          <div className="flex-1 justify-center lg:pb-0 pb-10">
+          <div className="flex-1 flex justify-evenly lg:pb-0 pb-10">
             <img src="../../../assets/banner-image.png" alt="Banner Image" />
           </div>
         </div>
