@@ -3,10 +3,10 @@ const Banner = () => {
 background: var(--PINK, #); */
   return (
     <div className="bg-[#FFF8F5]">
-      <div className="max-w-screen-2xl px-8 mx-auto py-14">
-        <div className="flex justify-between items-center">
+      <div className="max-w-screen-2xl px-8 mx-auto lg:py-14 pt-8 pb-16">
+        <div className="flex lg:justify-between flex-col-reverse lg:flex-row items-center">
           <div className="flex-1">
-            <h1 className="text-[48px] font-poppins font-bold text-[#111430]">
+            <h1 className="md:text-[48px] text-3xl md:leading-[60px] font-poppins font-bold text-[#111430]">
               BEAUTY SALON <br />
               FOR EVERY WOMEN
             </h1>
@@ -18,10 +18,8 @@ background: var(--PINK, #); */
               Get an Appointment
             </button>
           </div>
-          <div className="flex-1 justify-center">
-            <div>
-              <img src="../../../assets/banner-image.png" alt="Banner Image" />
-            </div>
+          <div className="flex-1 justify-center lg:pb-0 pb-10">
+            <img src="../../../assets/banner-image.png" alt="Banner Image" />
           </div>
         </div>
       </div>
