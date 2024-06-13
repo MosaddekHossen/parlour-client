@@ -1,16 +1,27 @@
 const Banner = () => {
+  /* border-radius: 5px;
+background: var(--PINK, #); */
   return (
     <div className="bg-[#FFF8F5]">
       <div className="max-w-screen-2xl px-8 mx-auto py-14">
-        <div className="flex justify-between">
-          <div className="">
-            <h1 className="text-4xl font-bold">
+        <div className="flex justify-between items-center">
+          <div className="flex-1">
+            <h1 className="text-[48px] font-poppins font-bold text-[#111430]">
               BEAUTY SALON <br />
               FOR EVERY WOMEN
             </h1>
+            <p className="text-[#666] text-base font-poppins font-normal max-w-80 py-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
+              commodo ipsum duis laoreet maecenas. Feugiat{" "}
+            </p>
+            <button className="text-white font-poppins text-base font-normal bg-[#F63E7B] py-3 px-8 rounded">
+              Get an Appointment
+            </button>
           </div>
-          <div className="">
-            <img src="../../../assets/banner-image.png" alt="" />
+          <div className="flex-1 justify-center">
+            <div>
+              <img src="../../../assets/banner-image.png" alt="Banner Image" />
+            </div>
           </div>
         </div>
       </div>
