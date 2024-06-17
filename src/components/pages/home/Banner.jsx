@@ -19,7 +19,11 @@ background: var(--PINK, #); */
             </button>
           </div>
           <div className="flex-1 flex justify-evenly lg:pb-0 pb-10">
-            <img src="../../../assets/banner-image.png" alt="Banner Image" />
+            <img
+              src="https://avatars.githubusercontent.com/u/138000438?v=4"
+              alt="Banner Image"
+            />
+            {/* <img src="../../../assets/banner-image.png" alt="Banner Image" /> */}
           </div>
         </div>
       </div>

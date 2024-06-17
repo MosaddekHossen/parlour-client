@@ -12,7 +12,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
-              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold hover:bg-[#e1638d] font-poppins"
           }
         >
           Home
@@ -23,7 +23,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "px-5 py-3 text-[#FFF] rounded bg-[#F63E7B] text-base font-normal font-poppins"
-              : "px-5 py-3 text-[#474747] text-sm font-semibold font-poppins"
+              : "px-5 py-3 text-[#474747] text-sm font-semibold hover:bg-[#e1638d] font-poppins"
           }
         >
           Our Portfolio
